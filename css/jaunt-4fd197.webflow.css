@@ -3149,6 +3149,10 @@
   display: none;
 }
 
+.mobile-callout-4{
+	display:none;
+}
+
 .middle-callouts-2 {
   width: 100%;
   height: 278px;
@@ -3380,7 +3384,7 @@
   max-width: 1200px;
   justify-content: center;
   align-items: flex-start;
-  display: flex;
+  display: none;
 }
 
 .hikes-3 {
@@ -4068,6 +4072,16 @@
   align-items: center;
   display: flex;
 }
+	
+	.mobile-callout-4 {
+  width: 100%;
+  height: 258px;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+	
 }
 
 
