@@ -2011,6 +2011,7 @@ a{
   letter-spacing: -.01em;
   font-family: Figtree, sans-serif;
   font-size: 18px;
+  letter-spacing: 0.02em;
   font-weight: 400;
   line-height: 140%;
 }
@@ -3429,7 +3430,7 @@ a{
   max-width: 1200px;
   justify-content: center;
   align-items: flex-start;
-  display: flex;
+  display: none;
 }
 
 .hikes-3 {
@@ -4740,9 +4741,6 @@ a{
   text-decoration: underline;
 }
 
-.mobile-callout-4 {
-    display: none;
-}
 
 .feature-container-dynamic-headline {
   width: 100%;
@@ -5650,7 +5648,7 @@ a{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 48% 24px 40%;
+    padding: 40% 24px 40%;
     display: flex;
     -webkit-animation: fadein 3s;
     -moz-animation: fadein 3s;
@@ -5680,6 +5678,11 @@ a{
 	  font-family: Figtree, sans-serif;
 	  font-weight: 300;
   }
+
+.mobile-callout-4 {
+  display: flex;
+  max-width: 327px;
+}
 	
 /* END THE GRID STYLING ON MOBILE */
 	
