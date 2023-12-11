@@ -39,6 +39,75 @@
 
 <!-- END META FOR PRETTY PREVIEWS -->
 
+	<!-- ADDING DYNAMIC HEADLINES -->
+	<script>
+	var headings = ['Where can I get great,', 'sushi in San Francisco', 'at 12:42 at night?', 'Where can I find a nice,', 'bohemian, chic store in', 'Tulsa, Oklahoma?', 'Where can I find an', 'escape from tourists', 'in lower Manhatten?', 'Where can I find a', 'Vikings bar in', 'West Hollywood?', 'Where can I find the', 'freshest powder near', 'Park City, Utah?', 'Welcome to Jaunt,', 'where every chat leads', 'to adventure.'];
+var i = 0; // Ensure i is defined
+var intervalId = setInterval(function() {
+    var element = document.getElementById('dynamicLineOne');
+	
+
+    // Fade out
+    element.classList.remove('dynamic-fade-in');
+
+    // Change text and fade in after a short delay
+    setTimeout(function() {
+        element.innerHTML = headings[i];
+        element.classList.add('dynamic-fade-in');
+        if (i == (headings.length - 1)) {
+            i = 0;
+        } else {
+            i++;
+        }
+    }, 1000); // Adjust the timeout to control the delay between fade out and in
+}, 6000); // Adjust this interval as needed
+
+var i = 0; // Ensure i is defined
+var intervalId = setInterval(function() {
+    var element = document.getElementById('dynamicLineTwo');
+
+    // Fade out
+    element.classList.remove('dynamic-fade-in');
+
+    // Change text and fade in after a short delay
+    setTimeout(function() {
+        element.innerHTML = headings[i];
+        element.classList.add('dynamic-fade-in');
+        if (i == (headings.length - 1)) {
+            i = 0;
+        } else {
+            i++;
+        }
+    }, 1000); // Adjust the timeout to control the delay between fade out and in
+}, 6000); // Adjust this interval as needed
+		
+var i = 0; // Ensure i is defined
+var intervalId = setInterval(function() {
+    var element = document.getElementById('dynamicLineFive');
+
+    // Fade out
+    element.classList.remove('dynamic-fade-in');
+
+    // Change text and fade in after a short delay
+    setTimeout(function() {
+        element.innerHTML = headings[i];
+        element.classList.add('dynamic-fade-in');
+        if (i == (headings.length - 1)) {
+            i = 0;
+        } else {
+            i++;
+        }
+    }, 1000); // Adjust the timeout to control the delay between fade out and in
+}, 6000); // Adjust this interval as needed
+
+
+
+	</script>
+	
+	
+	
+	<!-- END DYNAMIC HEADLINES -->
+
 	</head>
 <body>
   <div class="home-4">
@@ -63,19 +132,46 @@
         <div class="w-nav-button"></div>
       </div>
     </div>
+<!-- ADD ROTATING HEADLINE FEATURE -->
     <div class="main-content-4">
-      <div class="feature-section-3">
-        <div class="feature-container-4">
-          <div data-w-id="c6ab288b-7ccd-8ad4-3aad-75be1097cdd1" style="opacity:0" class="feature-title-4">
-            <div class="feature-headline-3">
-              <div class="content-17">
-                <div class="h1-9">Welcome to Jaunt, where every chat leads to adventure.</div>
-              </div>
+       <div class="feature-section-3">
+        <div class="feature-container-dynamic-headline-2">
+          <div class="feature-headline-dynamic">
+	
+            <div class="dynamic-line-4">
+              <div class="text-51 dynamic-fade-in" id="dynamicLineOne">Welcome to Jaunt, </div>
+            </div>
+            <div class="dynamic-line-5">
+              <div class="text-51 dynamic-fade-in" id="dynamicLineTwo">where every chat leads </div>
+            </div>
+			
+            <div class="dynamic-line-6">
+              <div class="text-51 dynamic-fade-in" id="dynamicLineFive">to adventure.</div>
             </div>
           </div>
-          <div class="feature-image-wrapper-4"><img src="images/feature-image.png" loading="lazy" width="1200" height="576" alt="" srcset="images/feature-image-p-500.png 500w, images/feature-image-p-800.png 800w, images/feature-image-p-1080.png 1080w, images/feature-image.png 1200w" sizes="(max-width: 479px) 90vw, (max-width: 767px) 94vw, (max-width: 991px) 95vw, (max-width: 1250px) 96vw, 1200px" class="feature-image-4"></div>
+			<!-- MOBILE VERSION -->
+			<div class="feature-headline-dynamic-mobile">
+	
+            <div class="dynamic-line-4">
+              <div class="text-mobile-feature" id="dynamicLineOneMobile">Welcome</div>
+            </div>
+            <div class="dynamic-line-5">
+              <div class="text-mobile-feature" id="dynamicLineTwoMobile">to Jaunt,</div>
+            </div>
+				<div class="dynamic-line-5">
+              <div class="text-mobile-feature" id="dynamicLineThreeMobile">where every</div>
+            </div>
+				<div class="dynamic-line-5">
+              <div class="text-mobile-feature" id="dynamicLineFourMobile">chat leads</div>
+            </div>
+            <div class="dynamic-line-6">
+              <div class="text-mobile-feature" id="dynamicLineFiveMobile">to adventure.</div>
+            </div>
+          </div>
         </div>
       </div>
+
+
       <div id="reviews-section" class="reviews-section-4">
         <div class="review-columns-4">
           <div data-w-id="c6ab288b-7ccd-8ad4-3aad-75be1097cdda" style="opacity:0" class="review-1-4">
@@ -146,7 +242,7 @@
       <div class="suggested-jaunts-section">
         <div data-w-id="c6ab288b-7ccd-8ad4-3aad-75be1097ce16" style="opacity:0" class="top-callout">
           <div class="column">
-            <div class="spa"><img src="images/jaunt-spa-img.png" loading="lazy" width="248" height="278" alt="" class="home-1"></div>
+            <div class="spa"><img src="images/jaunt-spa-img.png" loading="lazy" width="248" height="278" alt="" class="spa-hero"></div>
           </div>
         </div>
         <div class="middle-callouts">
