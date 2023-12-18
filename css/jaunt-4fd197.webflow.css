@@ -3885,7 +3885,10 @@ a{
   justify-content: flex-start;
   align-items: center;
   padding: 64px 24px 8px;
+	margin: 80px 0 0 0;
   display: flex;
+	bottom: 0;
+	position:relative;
 }
 
 .columns-6 {
@@ -3996,7 +3999,7 @@ a{
 
 .small-columns-6 {
   width: 145px;
-  height: 132px;
+  height: auto;
   grid-column-gap: 32px;
   grid-row-gap: 32px;
   justify-content: flex-start;
@@ -4094,6 +4097,8 @@ a{
   background-color: #f7f5f0;
   font-family: Figtree, sans-serif;
   font-weight: 400;
+  margin: 0;
+  min-height: 100vh;
 }
 
 .privacy-policy {
@@ -4759,7 +4764,7 @@ a{
   height: auto;
   grid-column-gap: 24px;
   grid-row-gap: 24px;
-  border: 0 solid #938D85;
+  border: 0 solid #ada69c;
   border-top-width: 1px;
   flex-direction: column;
   justify-content: center;
@@ -4787,7 +4792,7 @@ a{
   height: auto;
   grid-column-gap: 130px;
   grid-row-gap: 130px;
-  border: 0 solid #938D85;
+  border: 0 solid #ada69c;
   border-top-width: 1px;
   flex-direction: column;
   justify-content: center;
@@ -4803,7 +4808,7 @@ a{
   height: auto;
   grid-column-gap: 24px;
   grid-row-gap: 24px;
-  border: 0 solid #938D85;
+  border: 0 solid #ada69c;
   border-top-width: 1px;
   flex-direction: column;
   justify-content: center;
@@ -4832,7 +4837,7 @@ a{
   height: 148px;
   grid-column-gap: 24px;
   grid-row-gap: 24px;
-  border: 0 solid #938D85;
+  border: 0 solid #ada69c;
   border-top-width: 1px;
   flex-direction: column;
   justify-content: center;
@@ -4862,7 +4867,7 @@ a{
   height: 148px;
   grid-column-gap: 130px;
   grid-row-gap: 130px;
-  border: 0 solid #938D85;
+  border: 0 solid #ada69c;
   border-top-width: 1px;
   flex-direction: column;
   justify-content: center;
@@ -4879,7 +4884,7 @@ a{
   height: 148px;
   grid-column-gap: 24px;
   grid-row-gap: 24px;
-  border: 0 solid #938D85;
+  border: 0 solid #ada69c;
   border-top-width: 1.5px;
   flex-direction: column;
   justify-content: center;
@@ -5184,7 +5189,12 @@ a{
     font-size: 76px;
 	 
   }
-	
+	.column-28 {
+  max-width: 100%;  
+}
+	.column-26 {
+		max-width:100%
+	}
 }
 
 @media screen and (max-width: 767px) {
@@ -5683,6 +5693,19 @@ a{
 .mobile-callout-4 {
   display: flex;
   max-width: 327px;
+}
+	
+.footer-6 {
+  width: 100%;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 24px 0;
+  display: flex;
+	position:relative;
 }
 	
 /* END THE GRID STYLING ON MOBILE */
