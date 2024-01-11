@@ -79,7 +79,7 @@ class FormValidator {
       }
     }
   }
-
+	
   setStatus(field, message, status) {
     const successIcon = field.parentElement.querySelector('.icon-success')
     const errorIcon = field.parentElement.querySelector('.icon-error')
@@ -106,3 +106,24 @@ const fields = ["email", "password", "password_confirmation"]
 
 const validator = new FormValidator(form, fields)
 validator.initialize()
+
+
+// Not sure what I'm doing wrong here, I'm trying to remove the disabled state if all the fields are populated
+
+(function() {
+    $('form > input').keyup(function() {
+
+        var empty = false;
+        $('form > input').each(function() {
+            if ($(this).val() == '') {
+                empty = true;
+            }
+        });
+
+        if (empty) {
+            $('#sign-up').attr('disabled', 'disabled');
+        } else {
+            $('#sign-up').removeAttr('disabled');
+        }
+    });
+})()
