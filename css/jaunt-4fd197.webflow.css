@@ -3111,7 +3111,7 @@ a{
   background-color: #005a44;
   color: #ddf73b;
   border-radius: 16px;
-  width: 102px;
+  width: 128px;
   min-width: 102px;
   flex: 0 auto;
   justify-content: center;
@@ -3127,6 +3127,38 @@ a{
 }
 
 .navbar-button:hover {
+  background-color: #ffffff;
+  color: #005a44;
+	 -webkit-transition: all .25s ease-out;
+       -moz-transition: all .25s ease-out;
+        -ms-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+}
+
+.navbar-button-mobile-only {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  opacity: 0;
+  background-color: #005a44;
+  color: #ddf73b;
+  border-radius: 16px;
+  width: 128px;
+  min-width: 102px;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  font-family: Figtree, sans-serif;
+  display: flex;
+	 -webkit-transition: all .25s ease-out;
+       -moz-transition: all .25s ease-out;
+        -ms-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+}
+
+.navbar-button-mobile-only:hover {
   background-color: #ffffff;
   color: #005a44;
 	 -webkit-transition: all .25s ease-out;
@@ -6583,6 +6615,62 @@ height: 52px;
     font-weight: 300;
     line-height: 110%;
 }
+	
+	.navbar-button-mobile-only {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  opacity: 1;
+  background-color: #005a44;
+  color: #ddf73b;
+  border-radius: 16px;
+  width: 128px;
+  min-width: 102px;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  font-family: Figtree, sans-serif;
+  display: flex;
+	 -webkit-transition: all .25s ease-out;
+       -moz-transition: all .25s ease-out;
+        -ms-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+}
+
+.navbar-button-mobile-only:hover {
+  background-color: #ffffff;
+  color: #005a44;
+	 -webkit-transition: all .25s ease-out;
+       -moz-transition: all .25s ease-out;
+        -ms-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+}
+	
+	.main-navbar-content {
+  width: 100%;
+  max-width: 1200px;
+  grid-column-gap: 125px;
+  grid-row-gap: 0px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+	
+.w-nav-button {
+    position: relative;
+    float: right;
+    padding: 0px;
+    font-size: 24px;
+    display: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 	
 /* END THE GRID STYLING ON MOBILE */
 	
