@@ -2514,6 +2514,7 @@ a{
   justify-content: flex-start;
   align-items: center;
   display: flex;
+	padding:0;
 }
 
 .content-17 {
@@ -6615,11 +6616,13 @@ height: 52px;
     font-weight: 300;
     line-height: 110%;
 }
+
+/* UPDATE THIS AFTER LAUNCH */
 	
 	.navbar-button-mobile-only {
   grid-column-gap: 8px;
   grid-row-gap: 8px;
-  opacity: 1;
+  opacity: 0;
   background-color: #005a44;
   color: #ddf73b;
   border-radius: 16px;
@@ -6661,7 +6664,7 @@ height: 52px;
 .w-nav-button {
     position: relative;
     float: right;
-    padding: 0px;
+    padding: 7px;
     font-size: 24px;
     display: none;
     cursor: pointer;
@@ -6671,6 +6674,18 @@ height: 52px;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+	}
+	
+	.feature-title-4 {
+  width: 100%;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  padding: 0 4px;
+}
 	
 /* END THE GRID STYLING ON MOBILE */
 	
