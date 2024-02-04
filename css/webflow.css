@@ -1311,7 +1311,7 @@ textarea.w-select {
 /*
  * Without specifying the with and height inside the SVG, all versions of IE render the icon too small.
  * The bug does not seem to manifest itself if the elements are tall enough such as the above arrows.
- * (http://stackoverflow.com/questions/16092114/background-size-differs-in-internet-explorer)
+ * (http://stackoverflow.com/ s/16092114/background-size-differs-in-internet-explorer)
  */
 .w-lightbox-close {
   right: 0;
