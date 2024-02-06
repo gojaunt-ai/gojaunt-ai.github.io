@@ -6648,7 +6648,7 @@ height: 52px;
 	.navbar-button-mobile-only {
   grid-column-gap: 8px;
   grid-row-gap: 8px;
-  opacity: 0;
+  opacity: 1;
   background-color: #005a44;
   color: #ddf73b;
   border-radius: 16px;
