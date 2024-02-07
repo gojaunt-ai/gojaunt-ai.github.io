@@ -1,0 +1,262 @@
+body{
+	background:#F7F5F0;
+	margin: 36px;
+	font-family: Figtree, sans-serif;
+	font-size:18px;
+	text-align: left;
+	line-height: 124%;
+	color:#34302A;
+}
+
+MsoNormal, a{
+	color:#005A44;
+}
+
+MsoNormal:hover, a:hover{
+	color:#DDF73B;
+}
+
+
+.question  {
+	font-size:36px;
+	font-weight: regular;
+}
+
+.heading_1{
+	font-size:24px;
+}
+
+
+.footer-6 {
+  width: 100%;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 64px 24px 8px;
+	margin: 80px 0 0 0;
+  display: flex;
+	bottom: 0;
+	position:relative;
+}
+
+.columns-6 {
+  width: 100%;
+  max-width: 960px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.logo-column-6 {
+  width: 145px;
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  margin: reset;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.logo-wrapper-6 {
+  width: 120px;
+  height: 117px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 16px;
+  display: flex;
+}
+
+.vertical-lockup-2 {
+  object-fit: cover;
+}
+
+.social-logos-2 {
+  grid-column-gap: 35px;
+  grid-row-gap: 35px;
+  flex: 0 auto;
+  margin: reset;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.pinterest {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.vectors-wrapper-23 {
+  width: 13px;
+  height: 29px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.instagram-2 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.vectors-wrapper-24 {
+  width: 30px;
+  height: 29.9833px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.youtube-2 {
+  height: 30px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+
+.vectors-wrapper-25 {
+  width: 36px;
+  height: 24px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.vectors-wrapper-26 {
+  width: 25px;
+  height: 30px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.small-columns-6 {
+  width: 145px;
+  height: auto;
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 16px;
+  display: flex;
+}
+
+.about-us-6 {
+  width: 145px;
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.content-27 {
+  width: 100%;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.text-47 {
+  color: #34302a;
+  font-family: Figtree, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.footer-links-6 {
+  width: 100%;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.link-6 {
+  color: #34302a;
+  font-family: Figtree, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.link-6 a{
+  color: #34302a;
+  font-family: Figtree, sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.link-6 hover{
+  color: #005A44;
+  font-family: Figtree, sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.copyright-area-6 {
+  width: 100%;
+  max-width: 940px;
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+}
+
+.copywrite-5 {
+  color: #938d85;
+  text-align: center;
+  font-family: Figtree, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.body-2 {
+  background-color: #f7f5f0;
+  font-family: Figtree, sans-serif;
+  font-weight: 400;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.privacy-policy {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+}

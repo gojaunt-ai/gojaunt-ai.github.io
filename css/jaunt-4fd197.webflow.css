@@ -5528,6 +5528,32 @@ a{
 }
 
 
+  .watch-video-header {
+    max-width: 100%;
+ 	text-align:center;
+    color: #34302a;
+	font-family: Figtree, sans-serif;
+    font-size: 36px;
+	font-weight: 200;
+	margin:36px 0 48px 0;
+  }
+
+.demo-header-desktop{
+	
+
+display:flex;
+}
+
+.demo-header-mobile{
+	display:none;
+}
+
+
+.video-thumb{
+	overflow:hidden;
+	border-radius:48px;
+	padding: 0 24px;
+}
 
 @media screen and (max-width: 991px) {
   .main-nav {
@@ -6622,7 +6648,7 @@ height: 52px;
 	.navbar-button-mobile-only {
   grid-column-gap: 8px;
   grid-row-gap: 8px;
-  opacity: 0;
+  opacity: 1;
   background-color: #005a44;
   color: #ddf73b;
   border-radius: 16px;
@@ -6687,6 +6713,22 @@ height: 52px;
   padding: 0 4px;
 }
 	
+	.demo-header-desktop{
+	display:none;
+}
+
+	.demo-header-mobile{
+	display:flex;
+}
+	
+	.watch-video-header{
+		font-size: 28px;
+	}
+	
+	.h1-13{
+		font-size: 28px;
+		width: 270px;
+	}
 /* END THE GRID STYLING ON MOBILE */
 	
 @font-face {
