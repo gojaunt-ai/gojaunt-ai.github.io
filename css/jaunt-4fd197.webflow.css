@@ -6680,7 +6680,7 @@ height: 52px;
 	.main-navbar-content {
   width: 100%;
   max-width: 1200px;
-  grid-column-gap: 125px;
+  grid-column-gap: 96px;
   grid-row-gap: 0px;
   justify-content: space-between;
   align-items: center;
