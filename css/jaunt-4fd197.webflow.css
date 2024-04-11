@@ -5065,7 +5065,7 @@ a{
 
 .frame-2147212789 {
   width: 100%;
-  height: 548px;
+  height: 348px;
   grid-column-gap: 36px;
   grid-row-gap: 36px;
   flex-direction: column;
@@ -5100,6 +5100,8 @@ a{
   align-items: flex-start;
   padding-top: 24px;
   padding-bottom: 24px;
+	padding-left:90px;
+	padding-right:90px;
   display: flex;
 }
 
@@ -6730,6 +6732,8 @@ height: 52px;
 		font-size: 28px;
 		width: 270px;
 	}
+	
+	
 /* END THE GRID STYLING ON MOBILE */
 	
 @font-face {
