@@ -6443,6 +6443,8 @@ height: 52px;
     align-items: flex-start;
     padding-top: 0px;
     padding-bottom: 24px;
+		padding-left:8px;
+	padding-right:8px;
     display: flex;
 }
 	
